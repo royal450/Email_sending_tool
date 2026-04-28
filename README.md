@@ -37,6 +37,11 @@ python3 sender.py \
 - `email` (required)
 - `name` (optional; fallback: `there`)
 
+## Run tests
+```bash
+python3 -m unittest discover -s tests -v
+```
+
 ## Notes
 - Gmail has daily sending limits; keep volume reasonable.
 - If you need advanced tracking/unsubscribe handling, use a proper email provider (SES, SendGrid, Mailgun, etc.).
